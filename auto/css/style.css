@@ -1,0 +1,49 @@
+.none{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li{
+	display: inline;
+	float: left;
+}
+a{
+display: block;
+padding: 8px;
+background-color: #3cd27b;
+text-transform: uppercase;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 1s ease;
+}
+li a:hover {
+	background-color: #26a45b;
+}
+
+.imgg{
+	margin: 0 auto;
+	border-radius: 15%;
+	width: 260px;
+	height: 200px;
+	padding: 16px;
+
+}
+.radius{
+	margin: 0 auto;
+	width: 45%;
+}
+.item-position {
+	left:1rem;
+	top: 1rem;
+	border-radius: 5px;
+	color: black;
+	font-weight: 300;
+	display: block;
+	position: absolute;
+	text-align: center;
+}
